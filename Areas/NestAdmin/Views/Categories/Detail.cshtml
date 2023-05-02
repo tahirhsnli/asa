@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewData["Title"] = "Detail";
+}
+
+@model Category
+
+<h2>Name: <p>@Model.Name</p></h2>
+<h2>Logo: <p>@(Html.Raw(Model.Logo))</p></h2>
+<h2>Image: <p>@Model.Image</p></h2>
